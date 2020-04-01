@@ -1,0 +1,655 @@
+[2020-04-01 16:22:48,042] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:22:48,389] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:22:58,399] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:22:58,747] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:23:08,757] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:23:09,118] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:23:19,122] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:23:19,494] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:23:29,497] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:23:29,873] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:23:39,878] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:23:40,240] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:23:50,245] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:23:50,682] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:24:00,686] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:24:01,134] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:24:11,138] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:24:11,554] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:24:21,558] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:24:22,058] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:24:32,063] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:24:32,559] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:24:42,563] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:24:43,054] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:24:53,058] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:24:53,826] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:25:03,830] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:25:04,257] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:25:14,261] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:25:15,091] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:25:25,096] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:25:25,558] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:25:35,563] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:25:37,767] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:25:47,771] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:25:49,858] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:25:59,863] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:26:00,233] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:26:10,242] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:26:10,821] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:26:20,831] Starting new HTTPS connection (1): api.covid19india.org:443
+[2020-04-01 16:26:21,306] https://api.covid19india.org:443 "GET /data.json HTTP/1.1" 200 2454
+[2020-04-01 16:34:22,946] Change in data of Total: 
+
+Confirmed cases = 1750 --> 1750 
+Cured/Discharged/Migrated = 151 --> 152
+Death = 53 --> 53
+
+
+
+[2020-04-01 16:34:22,946] Change in data of Andhra Pradesh: 
+
+Confirmed cases = 87 --> 87 
+Cured/Discharged/Migrated = 1 --> 2
+Death = 0 --> 0
+
+
+
+[2020-04-01 17:00:35,447] Change in data of Total: 
+
+Confirmed cases = 1750 --> 1750 
+Cured/Discharged/Migrated = 152 --> 155
+Death = 53 --> 53
+
+
+
+[2020-04-01 17:00:35,447] Change in data of West Bengal: 
+
+Confirmed cases = 27 --> 27 
+Cured/Discharged/Migrated = 0 --> 3
+Death = 6 --> 6
+
+
+
+[2020-04-01 17:17:40,645] Change in data of Total: 
+
+Confirmed cases = 1750 --> 1751 
+Cured/Discharged/Migrated = 155 --> 155
+Death = 53 --> 53
+
+
+
+[2020-04-01 17:17:40,645] Change in data of Punjab: 
+
+Confirmed cases = 45 --> 46 
+Cured/Discharged/Migrated = 1 --> 1
+Death = 4 --> 4
+
+
+
+[2020-04-01 18:39:12,205]  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-04-01 18:39:12,629] Change in data of Total: 
+
+Confirmed cases = 1751 --> 1906 
+Cured/Discharged/Migrated = 155 --> 155
+Death = 53 --> 53
+
+
+
+[2020-04-01 18:39:12,629] Change in data of Jammu and Kashmir: 
+
+Confirmed cases = 55 --> 62 
+Cured/Discharged/Migrated = 1 --> 1
+Death = 2 --> 2
+
+
+
+[2020-04-01 18:39:12,629] Change in data of Kerala: 
+
+Confirmed cases = 241 --> 265 
+Cured/Discharged/Migrated = 24 --> 24
+Death = 2 --> 2
+
+
+
+[2020-04-01 18:39:12,629] Change in data of Rajasthan: 
+
+Confirmed cases = 106 --> 108 
+Cured/Discharged/Migrated = 3 --> 3
+Death = 0 --> 0
+
+
+
+[2020-04-01 18:39:12,630] Change in data of Tamil Nadu: 
+
+Confirmed cases = 124 --> 234 
+Cured/Discharged/Migrated = 6 --> 6
+Death = 1 --> 1
+
+
+
+[2020-04-01 18:39:12,630] Change in data of Uttar Pradesh: 
+
+Confirmed cases = 104 --> 116 
+Cured/Discharged/Migrated = 17 --> 17
+Death = 1 --> 1
+
+
+
+[2020-04-01 18:40:37,514]  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-04-01 18:40:38,063] Change in data of Total: 
+
+Confirmed cases = 1751 --> 1906 
+Cured/Discharged/Migrated = 155 --> 155
+Death = 53 --> 53
+
+
+
+[2020-04-01 18:40:38,063] Change in data of Jammu and Kashmir: 
+
+Confirmed cases = 55 --> 62 
+Cured/Discharged/Migrated = 1 --> 1
+Death = 2 --> 2
+
+
+
+[2020-04-01 18:40:38,063] Change in data of Kerala: 
+
+Confirmed cases = 241 --> 265 
+Cured/Discharged/Migrated = 24 --> 24
+Death = 2 --> 2
+
+
+
+[2020-04-01 18:40:38,063] Change in data of Rajasthan: 
+
+Confirmed cases = 106 --> 108 
+Cured/Discharged/Migrated = 3 --> 3
+Death = 0 --> 0
+
+
+
+[2020-04-01 18:40:38,063] Change in data of Tamil Nadu: 
+
+Confirmed cases = 124 --> 234 
+Cured/Discharged/Migrated = 6 --> 6
+Death = 1 --> 1
+
+
+
+[2020-04-01 18:40:38,063] Change in data of Uttar Pradesh: 
+
+Confirmed cases = 104 --> 116 
+Cured/Discharged/Migrated = 17 --> 17
+Death = 1 --> 1
+
+
+
+[2020-04-01 18:41:33,814] All Messages sent to users
+[2020-04-01 18:43:48,505] whatsapp:+917004784338 : hi
+[2020-04-01 18:43:48,507] 127.0.0.1 - - [01/Apr/2020 18:43:48] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 18:43:57,569] whatsapp:+917004784338 : 32
+[2020-04-01 18:43:57,570] 127.0.0.1 - - [01/Apr/2020 18:43:57] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 18:44:06,626] whatsapp:+917004784338 : 37
+[2020-04-01 18:44:06,626] 127.0.0.1 - - [01/Apr/2020 18:44:06] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 18:44:12,103] whatsapp:+917004784338 : 10
+[2020-04-01 18:44:12,104] 127.0.0.1 - - [01/Apr/2020 18:44:12] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 18:44:20,295] whatsapp:+917004784338 : 11
+[2020-04-01 18:44:20,296] 127.0.0.1 - - [01/Apr/2020 18:44:20] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 18:56:42,915] Change in data of Total: 
+
+Confirmed cases = 1906 --> 1916 
+Cured/Discharged/Migrated = 155 --> 155
+Death = 53 --> 53
+
+
+
+[2020-04-01 18:56:42,915] Change in data of West Bengal: 
+
+Confirmed cases = 27 --> 37 
+Cured/Discharged/Migrated = 3 --> 3
+Death = 6 --> 6
+
+
+
+[2020-04-01 18:57:27,330] All Messages sent to users
+[2020-04-01 19:01:27,030] whatsapp:+917004079283 : 37
+[2020-04-01 19:01:27,031] 127.0.0.1 - - [01/Apr/2020 19:01:27] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:01:53,998] whatsapp:+917004079283 : hi
+[2020-04-01 19:01:53,999] 127.0.0.1 - - [01/Apr/2020 19:01:53] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:02:02,556] whatsapp:+917004079283 : 38
+[2020-04-01 19:02:02,557] 127.0.0.1 - - [01/Apr/2020 19:02:02] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:02:27,558] whatsapp:+917004079283 : 10
+[2020-04-01 19:02:27,559] 127.0.0.1 - - [01/Apr/2020 19:02:27] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:02:45,662] whatsapp:+919122840313 : 10
+[2020-04-01 19:02:45,663] 127.0.0.1 - - [01/Apr/2020 19:02:45] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:03:16,339] whatsapp:+919122840313 : 4
+[2020-04-01 19:03:16,340] 127.0.0.1 - - [01/Apr/2020 19:03:16] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:03:38,726] whatsapp:+919122840313 : 37
+[2020-04-01 19:03:38,727] 127.0.0.1 - - [01/Apr/2020 19:03:38] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:03:58,346] whatsapp:+919122840313 : 37
+[2020-04-01 19:03:58,346] 127.0.0.1 - - [01/Apr/2020 19:03:58] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:05:32,090] Change in data of Total: 
+
+Confirmed cases = 1916 --> 1916 
+Cured/Discharged/Migrated = 155 --> 165
+Death = 53 --> 50
+
+
+
+[2020-04-01 19:05:32,090] Change in data of Haryana: 
+
+Confirmed cases = 43 --> 43 
+Cured/Discharged/Migrated = 17 --> 27
+Death = 0 --> 0
+
+
+
+[2020-04-01 19:05:32,090] Change in data of West Bengal: 
+
+Confirmed cases = 37 --> 37 
+Cured/Discharged/Migrated = 3 --> 3
+Death = 6 --> 3
+
+
+
+[2020-04-01 19:06:23,853] All Messages sent to users
+[2020-04-01 19:12:58,208]  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-04-01 19:13:09,691] *Change in data of Total*: 
+
+Confirmed cases = 1916 --> 1917 
+Cured/Discharged/Migrated = 165 --> 165
+Possible Deaths = 50 --> 53
+
+
+
+[2020-04-01 19:13:09,691] *Change in data of Bihar*: 
+
+Confirmed cases = 23 --> 24 
+Cured/Discharged/Migrated = 0 --> 0
+Possible Deaths = 1 --> 1
+
+
+
+[2020-04-01 19:13:09,691] *Change in data of West Bengal*: 
+
+Confirmed cases = 37 --> 37 
+Cured/Discharged/Migrated = 3 --> 3
+Possible Deaths = 3 --> 6
+
+
+
+[2020-04-01 19:13:52,469] can only concatenate list (not "str") to list
+[2020-04-01 19:20:59,452]  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-04-01 19:30:36,355] *Change in data of Total*: 
+
+Confirmed cases = 1917 --> 1917 
+Cured/Discharged/Migrated = 165 --> 167
+Possible Deaths = 53 --> 53
+
+
+
+[2020-04-01 19:30:36,355] *Change in data of Kerala*: 
+
+Confirmed cases = 265 --> 265 
+Cured/Discharged/Migrated = 24 --> 26
+Possible Deaths = 2 --> 2
+
+
+
+[2020-04-01 19:31:56,020] All Messages sent to users
+[2020-04-01 19:33:54,464]  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-04-01 19:34:06,271] whatsapp:+917004784338 : hi
+[2020-04-01 19:34:06,273] 127.0.0.1 - - [01/Apr/2020 19:34:06] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:34:34,684] whatsapp:+917004784338 : 24
+[2020-04-01 19:34:34,685] 127.0.0.1 - - [01/Apr/2020 19:34:34] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:34:43,231] whatsapp:+917004784338 : 1
+[2020-04-01 19:34:43,232] 127.0.0.1 - - [01/Apr/2020 19:34:43] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:35:11,888]  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-04-01 19:35:17,496] whatsapp:+917004784338 : 1
+[2020-04-01 19:35:17,498] 127.0.0.1 - - [01/Apr/2020 19:35:17] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:35:24,177] whatsapp:+917004784338 : 2
+[2020-04-01 19:35:24,178] 127.0.0.1 - - [01/Apr/2020 19:35:24] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:36:41,834]  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-04-01 19:36:46,144] whatsapp:+917004784338 : 2
+[2020-04-01 19:36:46,146] 127.0.0.1 - - [01/Apr/2020 19:36:46] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:36:54,534] whatsapp:+917004784338 : 1
+[2020-04-01 19:36:54,535] 127.0.0.1 - - [01/Apr/2020 19:36:54] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:36:58,963] whatsapp:+917004784338 : 3
+[2020-04-01 19:36:58,964] 127.0.0.1 - - [01/Apr/2020 19:36:58] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:37:04,212] whatsapp:+917004784338 : 4
+[2020-04-01 19:37:04,213] 127.0.0.1 - - [01/Apr/2020 19:37:04] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:37:33,618] whatsapp:+917004784338 : 5
+[2020-04-01 19:37:33,618] 127.0.0.1 - - [01/Apr/2020 19:37:33] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:37:46,896] whatsapp:+917004784338 : 6
+[2020-04-01 19:37:46,897] 127.0.0.1 - - [01/Apr/2020 19:37:46] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:38:00,490] whatsapp:+917004784338 : 7
+[2020-04-01 19:38:00,491] 127.0.0.1 - - [01/Apr/2020 19:38:00] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:38:43,188] whatsapp:+917004784338 : 8
+[2020-04-01 19:38:43,188] 127.0.0.1 - - [01/Apr/2020 19:38:43] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:38:47,462] whatsapp:+917004784338 : 9
+[2020-04-01 19:38:47,463] 127.0.0.1 - - [01/Apr/2020 19:38:47] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:38:56,242] whatsapp:+917004784338 : 10
+[2020-04-01 19:38:56,242] 127.0.0.1 - - [01/Apr/2020 19:38:56] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:39:00,610] whatsapp:+917004784338 : 11
+[2020-04-01 19:39:00,611] 127.0.0.1 - - [01/Apr/2020 19:39:00] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:39:04,785] whatsapp:+917004784338 : 12
+[2020-04-01 19:39:04,786] 127.0.0.1 - - [01/Apr/2020 19:39:04] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:39:09,629] whatsapp:+917004784338 : 13
+[2020-04-01 19:39:09,630] 127.0.0.1 - - [01/Apr/2020 19:39:09] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:39:14,243] whatsapp:+917004784338 : 14
+[2020-04-01 19:39:14,243] 127.0.0.1 - - [01/Apr/2020 19:39:14] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:39:19,255] whatsapp:+917004784338 : 15
+[2020-04-01 19:39:19,256] 127.0.0.1 - - [01/Apr/2020 19:39:19] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:39:27,897] whatsapp:+917004784338 : 16
+[2020-04-01 19:39:27,898] 127.0.0.1 - - [01/Apr/2020 19:39:27] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:39:41,118] whatsapp:+917004784338 : 17
+[2020-04-01 19:39:41,119] 127.0.0.1 - - [01/Apr/2020 19:39:41] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:39:46,328] whatsapp:+917004784338 : 18
+[2020-04-01 19:39:46,329] 127.0.0.1 - - [01/Apr/2020 19:39:46] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:39:51,359] whatsapp:+917004784338 : 19
+[2020-04-01 19:39:51,360] 127.0.0.1 - - [01/Apr/2020 19:39:51] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:40:08,432] whatsapp:+917004784338 : 20
+[2020-04-01 19:40:08,432] 127.0.0.1 - - [01/Apr/2020 19:40:08] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:40:16,798] whatsapp:+917004784338 : 21
+[2020-04-01 19:40:16,798] 127.0.0.1 - - [01/Apr/2020 19:40:16] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:40:21,747] whatsapp:+917004784338 : 22
+[2020-04-01 19:40:21,748] 127.0.0.1 - - [01/Apr/2020 19:40:21] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:40:32,449] whatsapp:+917004784338 : 23
+[2020-04-01 19:40:32,450] 127.0.0.1 - - [01/Apr/2020 19:40:32] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:40:36,982] whatsapp:+917004784338 : 24
+[2020-04-01 19:40:36,983] 127.0.0.1 - - [01/Apr/2020 19:40:36] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:40:44,814] whatsapp:+917004784338 : 25
+[2020-04-01 19:40:44,815] 127.0.0.1 - - [01/Apr/2020 19:40:44] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:40:50,031] whatsapp:+917004784338 : 26
+[2020-04-01 19:40:50,032] 127.0.0.1 - - [01/Apr/2020 19:40:50] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:41:01,135] whatsapp:+917004784338 : 27
+[2020-04-01 19:41:01,136] 127.0.0.1 - - [01/Apr/2020 19:41:01] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:41:07,472] whatsapp:+917004784338 : 28
+[2020-04-01 19:41:07,473] 127.0.0.1 - - [01/Apr/2020 19:41:07] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:41:46,188] whatsapp:+917004784338 : 29
+[2020-04-01 19:41:46,189] 127.0.0.1 - - [01/Apr/2020 19:41:46] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:42:05,812] whatsapp:+917004784338 : 30
+[2020-04-01 19:42:05,813] 127.0.0.1 - - [01/Apr/2020 19:42:05] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:42:10,791] whatsapp:+917004784338 : 31
+[2020-04-01 19:42:10,792] 127.0.0.1 - - [01/Apr/2020 19:42:10] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:42:18,726] whatsapp:+917004784338 : 32
+[2020-04-01 19:42:18,727] 127.0.0.1 - - [01/Apr/2020 19:42:18] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:42:23,205] whatsapp:+917004784338 : 33
+[2020-04-01 19:42:23,206] 127.0.0.1 - - [01/Apr/2020 19:42:23] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:42:30,484] whatsapp:+917004784338 : 34
+[2020-04-01 19:42:30,485] 127.0.0.1 - - [01/Apr/2020 19:42:30] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:42:37,234] whatsapp:+917004784338 : 35
+[2020-04-01 19:42:37,235] 127.0.0.1 - - [01/Apr/2020 19:42:37] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:42:44,507] whatsapp:+917004784338 : 36
+[2020-04-01 19:42:44,508] 127.0.0.1 - - [01/Apr/2020 19:42:44] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:42:49,898] whatsapp:+917004784338 : 37
+[2020-04-01 19:42:49,899] 127.0.0.1 - - [01/Apr/2020 19:42:49] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:42:56,517] whatsapp:+917004784338 : 38
+[2020-04-01 19:42:56,518] 127.0.0.1 - - [01/Apr/2020 19:42:56] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:43:02,953] whatsapp:+917004784338 : 39
+[2020-04-01 19:43:02,954] 127.0.0.1 - - [01/Apr/2020 19:43:02] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 19:48:05,641] *Change in data of Total*: 
+
+Confirmed cases = 1917 --> 1946 
+Cured/Discharged/Migrated = 167 --> 167
+Possible Deaths = 53 --> 53
+
+
+
+[2020-04-01 19:48:05,641] *Change in data of Delhi*: 
+
+Confirmed cases = 123 --> 152 
+Cured/Discharged/Migrated = 6 --> 6
+Possible Deaths = 2 --> 2
+
+
+
+[2020-04-01 19:48:43,555] local variable 'body' referenced before assignment
+[2020-04-01 19:51:55,151]  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-04-01 19:52:11,963] *Change in data of Total*: 
+
+Confirmed cases = 1917 --> 1946 
+Cured/Discharged/Migrated = 167 --> 167
+Possible Deaths = 53 --> 53
+
+
+
+[2020-04-01 19:52:11,963] *Change in data of Delhi*: 
+
+Confirmed cases = 123 --> 152 
+Cured/Discharged/Migrated = 6 --> 6
+Possible Deaths = 2 --> 2
+
+
+
+[2020-04-01 19:53:15,803] local variable 'message_body' referenced before assignment
+[2020-04-01 20:06:35,752]  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-04-01 20:06:36,596] *Change in data of Total*: 
+
+Confirmed cases = 1917 --> 1951 
+Cured/Discharged/Migrated = 167 --> 167
+Possible Deaths = 53 --> 53
+
+
+
+[2020-04-01 20:06:36,596] *Change in data of Delhi*: 
+
+Confirmed cases = 123 --> 152 
+Cured/Discharged/Migrated = 6 --> 6
+Possible Deaths = 2 --> 2
+
+
+
+[2020-04-01 20:06:36,597] *Change in data of Gujarat*: 
+
+Confirmed cases = 82 --> 87 
+Cured/Discharged/Migrated = 5 --> 5
+Possible Deaths = 6 --> 6
+
+
+
+[2020-04-01 20:06:36,597] *Change in data of Karnataka*: 
+
+Confirmed cases = 105 --> 110 
+Cured/Discharged/Migrated = 9 --> 9
+Possible Deaths = 3 --> 3
+
+
+
+[2020-04-01 20:06:36,597] *Change in data of Maharashtra*: 
+
+Confirmed cases = 325 --> 320 
+Cured/Discharged/Migrated = 39 --> 39
+Possible Deaths = 12 --> 12
+
+
+
+[2020-04-01 20:07:38,941] All Messages sent to users
+[2020-04-01 20:22:55,010] *Change in data of Total*: 
+
+Confirmed cases = 1951 --> 1951 
+Cured/Discharged/Migrated = 167 --> 168
+Possible Deaths = 53 --> 53
+
+
+
+[2020-04-01 20:22:55,010] *Change in data of Jammu and Kashmir*: 
+
+Confirmed cases = 62 --> 62 
+Cured/Discharged/Migrated = 1 --> 2
+Possible Deaths = 2 --> 2
+
+
+
+[2020-04-01 20:23:30,019] All Messages sent to users
+[2020-04-01 21:30:04,222]  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-04-01 21:30:04,548] *Change in data of Total*: 
+
+Confirmed cases = 1951 --> 1974 
+Cured/Discharged/Migrated = 168 --> 169
+Possible Deaths = 53 --> 55
+
+
+
+[2020-04-01 21:30:04,548] *Change in data of Maharashtra*: 
+
+Confirmed cases = 320 --> 335 
+Cured/Discharged/Migrated = 39 --> 39
+Possible Deaths = 12 --> 13
+
+
+
+[2020-04-01 21:30:04,549] *Change in data of Uttar Pradesh*: 
+
+Confirmed cases = 116 --> 116 
+Cured/Discharged/Migrated = 17 --> 17
+Possible Deaths = 1 --> 2
+
+
+
+[2020-04-01 21:30:04,549] *Change in data of Assam*: 
+
+Confirmed cases = 5 --> 13 
+Cured/Discharged/Migrated = 0 --> 0
+Possible Deaths = 0 --> 0
+
+
+
+[2020-04-01 21:30:04,549] *Change in data of Odisha*: 
+
+Confirmed cases = 4 --> 4 
+Cured/Discharged/Migrated = 0 --> 1
+Possible Deaths = 0 --> 0
+
+
+
+[2020-04-01 21:30:47,323] Message sent to whatsapp:+917783013265
+[2020-04-01 21:30:48,816] Message sent to whatsapp:+919681447137
+[2020-04-01 21:30:50,315] Message sent to whatsapp:+919835374661
+[2020-04-01 21:30:51,792] Message sent to whatsapp:+919797669911
+[2020-04-01 21:30:53,303] Message sent to whatsapp:+919570620303
+[2020-04-01 21:30:54,809] Message sent to whatsapp:+918709868251
+[2020-04-01 21:30:56,307] Message sent to whatsapp:+380503240785
+[2020-04-01 21:30:57,780] Message sent to whatsapp:+919431173560
+[2020-04-01 21:30:59,252] Message sent to whatsapp:+380503244815
+[2020-04-01 21:31:00,750] Message sent to whatsapp:+919470308076
+[2020-04-01 21:31:02,366] Message sent to whatsapp:+918797790871
+[2020-04-01 21:31:03,868] Message sent to whatsapp:+919804503095
+[2020-04-01 21:31:05,368] Message sent to whatsapp:+919097227116
+[2020-04-01 21:31:06,870] Message sent to whatsapp:+919709750610
+[2020-04-01 21:31:08,353] Message sent to whatsapp:+919304332003
+[2020-04-01 21:31:09,857] Message sent to whatsapp:+919903014568
+[2020-04-01 21:31:11,369] Message sent to whatsapp:+447802882184
+[2020-04-01 21:31:12,847] Message sent to whatsapp:+919430772020
+[2020-04-01 21:31:14,362] Message sent to whatsapp:+917004784338
+[2020-04-01 21:31:15,900] Message sent to whatsapp:+917631171070
+[2020-04-01 21:31:17,402] Message sent to whatsapp:+447939534437
+[2020-04-01 21:31:18,899] Message sent to whatsapp:+919122840313
+[2020-04-01 21:31:20,450] Message sent to whatsapp:+917004079283
+[2020-04-01 21:31:21,964] Message sent to whatsapp:+447962166510
+[2020-04-01 21:31:23,468] Message sent to whatsapp:+918126866401
+[2020-04-01 21:31:24,469] All Messages sent to users
+[2020-04-01 21:33:35,196] whatsapp:+918709868251 : 10
+[2020-04-01 21:33:35,197] 127.0.0.1 - - [01/Apr/2020 21:33:35] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 21:37:14,893] whatsapp:+919470308076 : 10
+[2020-04-01 21:37:14,893] 127.0.0.1 - - [01/Apr/2020 21:37:14] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 22:00:56,089] whatsapp:+918126866401 : hi
+[2020-04-01 22:00:56,089] 127.0.0.1 - - [01/Apr/2020 22:00:56] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 22:15:05,207] whatsapp:+919804503095 : 10
+[2020-04-01 22:15:05,208] 127.0.0.1 - - [01/Apr/2020 22:15:05] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 22:45:59,117] *Change in data of Total*: 
+
+Confirmed cases = 1974 --> 2010 
+Cured/Discharged/Migrated = 169 --> 169
+Possible Deaths = 55 --> 55
+
+
+
+[2020-04-01 22:45:59,118] *Change in data of Rajasthan*: 
+
+Confirmed cases = 108 --> 120 
+Cured/Discharged/Migrated = 3 --> 3
+Possible Deaths = 0 --> 0
+
+
+
+[2020-04-01 22:45:59,118] *Change in data of Andhra Pradesh*: 
+
+Confirmed cases = 87 --> 111 
+Cured/Discharged/Migrated = 2 --> 2
+Possible Deaths = 0 --> 0
+
+
+
+[2020-04-01 22:45:59,118] whatsapp:+917004784338 : hi
+[2020-04-01 22:45:59,122] 127.0.0.1 - - [01/Apr/2020 22:45:59] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-01 22:46:37,771] whatsapp:+917004784338 : 38
+[2020-04-01 22:46:37,772] 127.0.0.1 - - [01/Apr/2020 22:46:37] "[37mPOST /bot HTTP/1.1[0m" 200 -
+[2020-04-02 00:31:24,890] *Change in data of Total*: 
+
+Confirmed cases = 2010 --> 2014 
+Cured/Discharged/Migrated = 169 --> 169
+Possible Deaths = 55 --> 56
+
+
+
+[2020-04-02 00:31:24,890] *Change in data of Maharashtra*: 
+
+Confirmed cases = 335 --> 335 
+Cured/Discharged/Migrated = 39 --> 39
+Possible Deaths = 13 --> 14
+
+
+
+[2020-04-02 00:31:24,890] *Change in data of Uttar Pradesh*: 
+
+Confirmed cases = 116 --> 117 
+Cured/Discharged/Migrated = 17 --> 17
+Possible Deaths = 2 --> 2
+
+
+
+[2020-04-02 00:31:24,890] *Change in data of Chandigarh*: 
+
+Confirmed cases = 15 --> 17 
+Cured/Discharged/Migrated = 0 --> 0
+Possible Deaths = 0 --> 0
+
+
+
+[2020-04-02 00:31:24,890] *Change in data of Odisha*: 
+
+Confirmed cases = 4 --> 5 
+Cured/Discharged/Migrated = 1 --> 1
+Possible Deaths = 0 --> 0
+
+
+
+[2020-04-02 00:32:06,116] Message sent to whatsapp:+917783013265
+[2020-04-02 00:32:07,589] Message sent to whatsapp:+919681447137
+[2020-04-02 00:32:09,074] Message sent to whatsapp:+919835374661
+[2020-04-02 00:32:10,676] Message sent to whatsapp:+919797669911
+[2020-04-02 00:32:12,160] Message sent to whatsapp:+919570620303
+[2020-04-02 00:32:13,644] Message sent to whatsapp:+918709868251
+[2020-04-02 00:32:15,131] Message sent to whatsapp:+380503240785
+[2020-04-02 00:32:16,604] Message sent to whatsapp:+919431173560
+[2020-04-02 00:32:18,102] Message sent to whatsapp:+380503244815
+[2020-04-02 00:32:19,590] Message sent to whatsapp:+919470308076
+[2020-04-02 00:32:21,071] Message sent to whatsapp:+918797790871
+[2020-04-02 00:32:22,549] Message sent to whatsapp:+919804503095
+[2020-04-02 00:32:24,030] Message sent to whatsapp:+919097227116
+[2020-04-02 00:32:25,515] Message sent to whatsapp:+919709750610
+[2020-04-02 00:32:27,001] Message sent to whatsapp:+919304332003
+[2020-04-02 00:32:28,473] Message sent to whatsapp:+919903014568
+[2020-04-02 00:32:29,955] Message sent to whatsapp:+447802882184
+[2020-04-02 00:32:31,436] Message sent to whatsapp:+919430772020
+[2020-04-02 00:32:32,961] Message sent to whatsapp:+917004784338
+[2020-04-02 00:32:34,445] Message sent to whatsapp:+917631171070
+[2020-04-02 00:32:35,958] Message sent to whatsapp:+447939534437
+[2020-04-02 00:32:37,439] Message sent to whatsapp:+919122840313
+[2020-04-02 00:32:38,909] Message sent to whatsapp:+917004079283
+[2020-04-02 00:32:40,428] Message sent to whatsapp:+447962166510
+[2020-04-02 00:32:41,994] Message sent to whatsapp:+918126866401
+[2020-04-02 00:32:42,995] All Messages sent to users
