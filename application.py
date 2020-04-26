@@ -25,14 +25,18 @@ application = Flask(__name__)
 
 def bot():
     state_ut_list = {'Andhra Pradesh': 1, 'Arunachal Pradesh': 2, 'Assam': 3, 'Bihar': 4, 'Chhattisgarh': 5, 'Goa': 6, 'Gujarat': 7, 'Haryana': 8, 'Himachal Pradesh': 9, 'Jharkhand': 10, 'Karnataka': 11, 'Kerala': 12, 'Madhya Pradesh': 13, 'Maharashtra': 14, 'Manipur': 15, 'Meghalaya': 16, 'Mizoram': 17, 'Nagaland': 18, 'Odisha': 19, 'Punjab': 20, 'Rajasthan': 21, 'Sikkim': 22, 'Tamil Nadu': 23, 'Telangana': 24, 'Tripura': 25, 'Uttar Pradesh': 26, 'Uttarakhand': 27, 'West Bengal': 28, 'Andaman and Nicobar Islands': 29, 'Chandigarh': 30, 'Dadra and Nagar Haveli': 31, 'Daman and Diu': 32, 'Delhi': 33, 'Jammu and Kashmir': 34, 'Ladakh': 35, 'Lakshadweep': 36, 'Puducherry': 37, 'Total': 38}
-    data = covid_bot.corona_bot()
-    incoming_msg = request.values.get('Body', '').lower()
-    incoming_user = request.values.get('From')
-    logging.critical(f"{incoming_user} : {incoming_msg}")
-    resp = MessagingResponse()
-    msg = resp.message()
+    data = covid_bot.corona_bot(0)
+    try:
+        incoming_msg = request.values.get('Body', '').lower()
+        incoming_user = request.values.get('From')
+        logging.critical(f"{incoming_user} : {incoming_msg}")
+        resp = MessagingResponse()
+        msg = resp.message()
 
-    cur_data = load()
+        cur_data = load()
+
+    except Exception as e:
+        logging.exception(f"Error in reading the message sent by a user: {e}")
 
     message = ''
     key_list = list(state_ut_list.keys()) 
@@ -66,12 +70,13 @@ def bot():
 def searchUpdates():
     try:
         while(True):
+            logging.warning("Thread Running")
             message_body = ''
-            bot_data = covid_bot.corona_bot()
+            bot_data = covid_bot.corona_bot(1)
             change_in_data = bot_data["changed"]
             message = bot_data['message']
             users = set()
-            if change_in_data == True:
+            if change_in_data == True and len(message) is not 0:
                 client_data = client.messages.list()             
                 for msg in client_data:
                     if msg.to != 'whatsapp:+14155238886':

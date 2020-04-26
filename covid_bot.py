@@ -34,7 +34,7 @@ FORMAT = '[%(asctime)-15s] %(message)s'
 
 logging.basicConfig(format=FORMAT, level=logging.WARNING, filename = 'corona_bot.log', filemode = 'a+')
 
-def corona_bot():  
+def corona_bot(args):  
     cur_data = []
     info = []
     message = []
@@ -70,7 +70,7 @@ def corona_bot():
                         if current_state == 'Total':
                             message.append(data)
 
-            if changed == True:
+            if changed == True and args == 1:
                 past_data[current_state] = cur_data
                 
         bot_data = {"changed": any_change,"message":message}
