@@ -3,6 +3,7 @@ import requests
 import time
 import datetime
 import logging
+import logging.handlers
 import threading
 from json import JSONDecodeError
 
@@ -31,8 +32,10 @@ def load():
 URL = 'https://api.covid19india.org/data.json'
 
 FORMAT = '[%(asctime)-15s] %(message)s'
+log_file = 'corona_bot.log'
+handler = logging.handlers.RotatingFileHandler(log_file, maxBytes=500*1024,backupCount=5)
+logging.basicConfig(format=FORMAT, level=logging.WARNING, handlers = [handler])
 
-logging.basicConfig(format=FORMAT, level=logging.WARNING, filename = 'corona_bot.log', filemode = 'a+')
 
 def corona_bot(args):  
     cur_data = []
@@ -59,7 +62,7 @@ def corona_bot(args):
                 if past_data[current_state] != cur_data:
                     changed = True
                     any_change = True
-                    if past_data[current_state][0] == 0:
+                    if past_data[current_state][0] == "0":
                         data = f"*New case/cases appeared in {current_state}*: \n\nConfirmed cases = {state['confirmed']} \nCured/Discharged/Migrated = {state['recovered']}\nPossible Deaths = {state['deaths']}\n\n\n"
                         info.append(data)
                         message.append(data)
@@ -70,13 +73,14 @@ def corona_bot(args):
                         if current_state == 'Total':
                             message.append(data)
 
-            if changed == True and args == 1:
+            if changed == True:
                 past_data[current_state] = cur_data
                 
-        bot_data = {"changed": any_change,"message":message}
+        bot_data = {"changed": any_change,"message": message, "newData": past_data}
 
-        if any_change == True:
+        if any_change == True and args == 1:
             lock.acquire()
+            logging.warning("SAVING DATA")
             save(past_data)
             lock.release()
 
@@ -89,4 +93,4 @@ def corona_bot(args):
     return bot_data
 
 if __name__ == "__main__":
-    corona_bot()
+    corona_bot(1)

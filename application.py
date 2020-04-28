@@ -33,7 +33,7 @@ def bot():
         resp = MessagingResponse()
         msg = resp.message()
 
-        cur_data = load()
+        cur_data = data["newData"]
 
     except Exception as e:
         logging.exception(f"Error in reading the message sent by a user: {e}")
@@ -54,7 +54,7 @@ def bot():
             if state in cur_data and cur_data[state][0] != '0':
                 message = f'*Data for {state}*.\n\nTotal Confirmed cases  = {cur_data[state][0]} \nCured/Discharged/Migrated = {cur_data[state][1]} \nPossible Deaths = {cur_data[state][2]}\n\n_Stay at home. Stay safe._'
             else:
-                message = f'No cases yet in {state}.'
+                message = f'No cases currently in {state}.'
 
         else:
             message = 'Please provide correct input.'
@@ -76,7 +76,7 @@ def searchUpdates():
             change_in_data = bot_data["changed"]
             message = bot_data['message']
             users = set()
-            if change_in_data == True and len(message) is not 0:
+            if change_in_data == True and len(message) != 0:
                 client_data = client.messages.list()             
                 for msg in client_data:
                     if msg.to != 'whatsapp:+14155238886':
