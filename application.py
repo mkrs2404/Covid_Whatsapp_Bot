@@ -15,8 +15,8 @@ def f_write(text:str):
 lock = threading.Lock()
 FORMAT = '[%(asctime)-15s] %(message)s'
 logging.basicConfig(format=FORMAT, level=logging.WARNING, filename = 'corona_bot.log', filemode = 'a')
-account_sid = 'ACf3ac76821ea9d7b771cf2683be44df27'
-auth_token = '62488e676c48108c9cb2a9b10e7f2446'
+account_sid = 'ACb5059ad22b3814f11c9f836d471864bc'
+auth_token = 'c4818f9094f5aed589f1aeec66c9791f'
 client = Client(account_sid, auth_token)
 
 application = Flask(__name__)
@@ -52,7 +52,7 @@ def bot():
         elif incoming_msg.isdigit() and int(incoming_msg) in range(1,39):
             state = key_list[val_list.index(int(incoming_msg))]
             if state in cur_data and cur_data[state][0] != '0':
-                message = f'*Data for {state}*.\n\nTotal Confirmed cases  = {cur_data[state][0]} \nCured/Discharged/Migrated = {cur_data[state][1]} \nPossible Deaths = {cur_data[state][2]}\n\n_Stay at home. Stay safe._'
+                message = f'*Data for {state}*.\n\nTotal Confirmed cases  = {cur_data[state][0]} \nCured/Discharged/Migrated = {cur_data[state][1]} \nPossible Deaths = {cur_data[state][2]}\nNew cases registered today = {cur_data[state][3]}\n\n_Stay at home. Stay safe._'
             else:
                 message = f'No cases currently in {state}.'
 

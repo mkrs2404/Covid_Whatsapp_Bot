@@ -51,7 +51,7 @@ def corona_bot(args):
         for state in state_wise_data:
             changed = False
             current_state = state['state']
-            cur_data = [state['confirmed'], state['recovered'], state['deaths']]
+            cur_data = [state['confirmed'], state['recovered'], state['deaths'], state['deltaconfirmed']]
             
             if current_state not in past_data:
                 past_data[current_state] = {}
@@ -68,7 +68,7 @@ def corona_bot(args):
                         message.append(data)
 
                     else:
-                        data = f"*Change in data of {current_state}*: \n\nConfirmed cases = {past_data[current_state][0]} --> {state['confirmed']} \nCured/Discharged/Migrated = {past_data[current_state][1]} --> {state['recovered']}\nPossible Deaths = {past_data[current_state][2]} --> {state['deaths']}\n\n\n"
+                        data = f"*Change in data of {current_state}*: \n\nConfirmed cases = {past_data[current_state][0]} --> {state['confirmed']} \nCured/Discharged/Migrated = {past_data[current_state][1]} --> {state['recovered']}\nPossible Deaths = {past_data[current_state][2]} --> {state['deaths']}\nNew cases registered today = {state['deltaconfirmed']}\n\n\n"
                         info.append(data)
                         if current_state == 'Total':
                             message.append(data)
