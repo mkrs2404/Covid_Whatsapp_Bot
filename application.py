@@ -15,8 +15,10 @@ def f_write(text:str):
 lock = threading.Lock()
 FORMAT = '[%(asctime)-15s] %(message)s'
 logging.basicConfig(format=FORMAT, level=logging.WARNING, filename = 'corona_bot.log', filemode = 'a')
-account_sid = 'ACb5059ad22b3814f11c9f836d471864bc'
-auth_token = 'c4818f9094f5aed589f1aeec66c9791f'
+
+account_sid = #Put your Twilio Account SID here
+auth_token = #Put your Twilio Auth Token here
+
 client = Client(account_sid, auth_token)
 
 application = Flask(__name__)
